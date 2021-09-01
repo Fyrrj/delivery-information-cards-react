@@ -9,7 +9,7 @@ const GraphLine = ({ percent, time }: GraphProps) => {
       <div
         className={`h-${percent} ${
           percent === 40 ? "bg-fifth" : "bg-primary"
-        }  w-4 rounded-lg mb-3`}
+        } w-4 rounded-lg mb-3`}
       ></div>
       <span className="text-fourth text-sm font-light">{time}</span>
     </div>
